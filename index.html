@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>U1-W3-D4</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tombola</h1>
+
+      <!-- Tabellone -->
+      <section id="tabellone" class="tabellaGrande"></section>
+
+      <!-- Numero estratto -->
+      <section id="estratto" class="numero-estratto">
+        <h2>Numero Estratto</h2>
+        <div id="numeroCorrente" class="pallina-grande">--</div>
+      </section>
+
+      <!-- Genera e visualizza più cartelle -->
+      <section class="cartelle-section">
+        <button id="generaCartellaBtn">Genera Nuova Cartella</button>
+        <div id="cartelleContainer" class="cartelle-container"></div>
+      </section>
+
+      <!-- Pulsanti di controllo -->
+      <section class="controlli">
+        <button id="estraiBtn">Estrai Numero</button>
+        <button id="resetBtn">Reset</button>
+      </section>
+
+      <!-- Storico dei numeri estratti -->
+      <section id="storico" class="storico">
+        <h2>Numeri Estratti</h2>
+        <div id="numeriEstratti" class="lista-numeri"></div>
+      </section>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
