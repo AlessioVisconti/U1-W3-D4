@@ -3,6 +3,7 @@
 //3)Aggiungere Numero alle cartelline per identificale + possibilità di farle scegliere al cliente quindi ci vuole un overview
 //4)Aggiungere smorfie
 //5)Aggiungere smorfie parlate
+//6)Dare stile alle varie scritte
 //CREO TUTTI I NUMERI DELLA TOMBOLA
 const numeriDisponibili = [];
 
